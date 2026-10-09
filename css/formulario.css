@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #852458;
+}
+
+h1{
+    color: #0000009a;
+    text-align: center;
+}
+.container{
+    max-width: 500px;
+    /*centralizar*/
+    margin: auto;
+}
+label{
+    display: block;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 8px;
+}
+.btn-cadastrar{
+    background: rgba(7, 101, 5, 0.526);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-limpar{
+    background: rgba(255, 0, 0, 0.472);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
