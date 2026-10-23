@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #190550de;
+}
+
+.container{
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin: 0 auto;
+    padding: 20px;
+    /* Borda arredondada */
+    border-radius: 10px;
+}
+.container h1 {
+    text-align: center;
+}
+.form-control {
+    margin-bottom: 15px;
+
+}
+/* Campo de text, email, senha e select */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    margin-top: 10px;
+}
+.opcoes label {
+    display: inline;
+    margin-right: 10px;
+}
+.container a{
+
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #2564eb;
+    color: white;
+    border: radius 0;
+    cursor: pointer;
+    transition: 0.3s all;
+    border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(127, 174, 192);
+    border-radius: 8px;
+}
+
+.botao a{
+    text-decoration: none;
+}
